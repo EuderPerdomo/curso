@@ -1,0 +1,82 @@
+/*
+a.temas::before {
+  content:url(https://img.icons8.com/ios-filled/30/000000/sun.png);
+  display:inline-block;
+}
+
+*/
+.contenido{
+  width: 100px;
+  height: 400px;
+}
+
+p{
+text-decoration: blue;
+font-size: 20px;
+}
+div{
+	color: black;
+	text-decoration-color: blue;
+}
+.title{
+	font-size: 50px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+
+#carro{
+	padding-top: 10px;
+}
+#cards{
+	padding-top: 10px;
+}
+.row{
+	padding-top: 10px;
+}
+#panel:hover{
+	color: blue;
+}
+
+@media (min-width: 600px) {
+
+  .carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+     min-height: 100vh;
+}
+}
+
+
+/* Inicia css para listaTemas*/
+
+div.logo-control{
+  width:40px;
+  height:40px;
+  background-image:url("https://img.icons8.com/wired/40/000000/control-panel.png");
+  float: left;
+}
+
+/* Finaliza css para listaTemas*/
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
