@@ -19,10 +19,7 @@
             <p class="text-justyfi">Al momento de elegir entre cual de las dos principales tecnologias en el mercado elegir pueden influir varios factores ya sean gusto por uno u otro debido a origees o producion del mismo, u otros factores mas importantes como lo puede ser el espacio disponible para realizar la instalación, si se cueta con poco espacio se recomienda usar paneles Monocristalinos ya que al contar con una mayor eficiencia se reduce el espacio necesario para producir una determinada cantidad de energia, por el contrario si se cuenta con un area bastante extensa e podria elegir paneles policristalinos.<br>
             Otro factor Importante a tener en cuenta es la temperatura, generalmente los paneles policristalinos tienden a ser mas eficientes y mas tolerantes a altas temperaturas. </p>
            
-            
-  
     </div>
-
 
 </div>  
    <div class="d-flex p-2 bd-highlight">
