@@ -1,0 +1,264 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: #1a2035;
+}
+
+.sidebar{
+  position: fixed;
+  left: -250px;
+  width: 230px;
+  height: 100%;
+  background:#042331;
+  transition: all .5s ease;
+}
+.sidebar header{
+  font-size: 22px;
+  color:white;
+  text-align: center;
+  line-height: 78px;
+  background: #063146;
+  user-select: none;
+}
+.sidebar ul a{
+  display: block;
+  height: auto;
+  width: 100%;
+  line-height:65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing:border-box;
+  border-top:1px solid rgba(255,255,255,.1);
+  border-bottom:1px solid black;
+  transition: .4s;
+}
+
+ul li:hover a{
+  padding-left: 50px;
+}
+.sidebar ul a i{
+  margin-right: 16px;
+}
+
+
+#check{
+  display:none;
+}
+
+label #btn,
+label #cancel
+{
+  position: fixed;
+  cursor:pointer;
+  background:#042331;
+  border-radius: 3px;
+}
+
+label #btn{
+  left: 48px;
+  top: 25px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all .5s;
+}
+label #cancel{
+  z-index: 1111;
+  left: -195px;
+  top: 17px;
+  font-size: 38px;
+  color: #0a5275;
+  padding: 4px 9px;
+  transition: all .5s ease;
+
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  left: 230px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel{
+  left: 195px;
+
+}
+#check:checked ~ section{
+  margin-left: 220px;
+}
+
+section{
+  background: url(.././img/fondo2.jpg)no-repeat; 
+  background-position: center;
+  background-size: cover;
+  height: auto; /* height: 100vh; */
+  transition: all .5s;
+}
+
+
+.titulo{
+width: auto;
+height: 70px;
+text-align: center;
+background-color:#1a2035;
+padding-top: 10px;
+}
+
+.botones{
+  padding-left: 100px;
+  padding-right: 100px; 
+  padding-top: 100px;
+  
+}
+
+.titulo h1{
+  color: white;
+}
+
+.card{
+  position:inherit;
+}
+
+.col-md-4{
+  position: inherit;
+}
+
+
+.fichas{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.row{
+  padding-top: 50px;
+}
+
+.barra{
+  position: absolute;
+}
+
+@media(max-width: 768px){
+  section{
+    height: auto;
+  }
+.botones{
+  padding-right: 0px;
+  padding-left: 0px;
+  font-size: 24px;
+}
+
+.titulo h1{
+font-size: 24px;
+}
+
+.titulo{
+  text-align: center;
+}
+
+}
+.barra{
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+margin: 10px auto;
+padding: 0;
+list-style: none;
+width: 100%;
+font-size: 18px;
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+display: block;
+padding: 10px 10px 10px 20px;
+background: #333;
+color: #eee;
+border-bottom: 1px solid #000;
+border-top: 1px solid #666;
+text-decoration: none;
+box-sizing: border-box;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 40px;
+background: #999;
+color: #000;
+font-size: 16px;
+border: 0;
+border-bottom: 1px solid #ccc;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:hover ul {
+max-height:700px;
+transition: .3s all ease-in;
+}
+ul.acorh li a:hover {
+background: #666;
+color: #fff;
+}
+
+
+.botones{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  align-items: center;
+}
+
+footer{
+  
+  align-items: center;
+  text-align: center;
+}
+.piepagina{
+background-color:#1a2035;
+}
+footer .row{
+  padding-top: 5px;
+}
+footer h1{
+  color: white;
+}

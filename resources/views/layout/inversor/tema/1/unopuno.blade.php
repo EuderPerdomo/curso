@@ -1,45 +1,17 @@
 @extends('template.plantilla_bravo')
 
 @section('content')
-  <div class="title text-center border"> <h1 class="font-weight-bold">Paneles Solares</h1></div>
-
-<div class="progress">
-  <div class="progress-bar bg-success" role="progressbar" style="width: 2.3%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-
-   <div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated  bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 2.3%"></div>
-</div>
-
-
-<div class="row  align-items-center text-justyfi">
-
-
   
-<!--
-<div class="col-12 title text-center">
-  <button type="button" class="btn  btn-circle border" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-</button>
-
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-  <button type="button" class="btn btn-default btn-circle border"><i class="fa fa-check"></i></button>
-                          
+<!--Inicia Contenido -->
+<div class="border"><!--Inicia seccion de Contenido -->
+  <div class="title text-center border"> <h1 class="font-weight-bold">Paneles Solares</h1></div>
+</div>
+<div class="row  align-items-center text-justyfi">
+<div class="col-12 title text-center">                    
   </div>
--->
-
 <div class="col-12 col-sm-12 col-md-6 ">
-                  <img src="{{asset('img/fondo.jpg') }}" class="img-fluid  " alt="Responsive image">
-  <h7>Imagen De referencia, tomada de: <a href="#m">www.link.co</a></h7>
+                  <img src="img/fondo.jpg" class="img-fluid  " alt="Responsive image">
+  <!--<h7>Imagen De referencia, tomada de: <a href="#m">www.link.co</a></h7> -->
     </div>
 
 
@@ -47,36 +19,37 @@
       
             <p class="text-justyfi">Los paneles solares o tambien llamados modulos fotovoltaicos son los responsables de captar la radiación proveniente del sol y trasformarla en energia que podemos aprovechar para alimentar nuestros hogares y mucho mas.</p>
             <p>Constan de la unión de varias celulas solares las cuales al sumar sus capacidades nos brindan la posibilidad de aprove</p>
-            
-  
     </div>
+</div> 
 
-
-</div>  
-
-
-   <div class="d-flex p-2 bd-highlight">
-  <a class="btn rounded-pill btn-block bg-success text-center" role="button" id="botonzoom"     value="mostrar" onClick="muestra_oculta('oculto')"><img src="https://img.icons8.com/ios-filled/30/000000/sun.png">Ampliar Información</a>
-  </div> <!--onClick="ostrar();" -->
-<div class="row">
-  <div class="col-12 col-sm-12 col-md-4 ">
-      <a class="btn rounded-pill btn-block bg-success text-center border" role="button" id="botonzoom" href="{{asset('panel_tema1.1') }}" >< Anterior</a>
-  </div>
-  <div class="col-12 col-sm-12 col-md-4 ">
-    <a class="btn rounded-pill btn-block bg-success text-center border" role="button" id="botonzoom" href="{{asset('paneles') }}" >Inicio</a>
-  </div>
-  <div class="col-12 col-sm-12 col-md-4 ">
-    <a class="btn rounded-pill btn-block bg-success text-center border" role="button" id="botonzoom" href="{{asset('panel_tema1.2') }}" >Siguiente ></a>
-  </div>
-
-</div>
-
-<div class="section" id="oculto" > <!--Inicia seccion oculto -->
 
   
+  <div class="fichas">
+    <!--
+  <a class="btn rounded-pill btn-block bg-transparent text-center border" role="button" id="botonzoom" >< Anterior</a>
+  <a class="btn bg-transparent rounded-pill btn-block  text-center border" role="button" id="botonzoom"  value="mostrar" onClick="muestra_oculta('oculto')"><img src="https://img.icons8.com/ios-filled/30/000000/sun.png">Ampliar Información</a>
+-->
+<div class="row">
+  <div class="col-12 col-sm-12 col-md-12">
+    <a class="btn bg-transparent rounded-pill btn-block  text-center border" role="button" id="botonzoom"  value="mostrar" onClick="muestra_oculta('oculto')"><img src="https://img.icons8.com/ios-filled/30/000000/sun.png">Ampliar Información</a>
 
-<button class="btn" onclick="alert('mensaje')">Mensaje</button>
+  </div>
 
+  <div class="col-12 col-sm-12 col-md-4">
+      <a class="btn rounded-pill btn-block bg-transparent text-center border" role="button" id="botonzoom" >< Anterior</a>
+  </div>
+  <div class="col-12 col-sm-12 col-md-4 ">
+    <a class="btn rounded-pill btn-block bg-transparent text-center border" role="button" id="botonzoom" >Inicio</a>
+  </div>
+  <div class="col-12 col-sm-12 col-md-4 ">
+    <a class="btn rounded-pill btn-block bg-transparent text-center border" role="button" id="botonzoom" >Siguiente ></a>
+  </div>
+
+</div>   
+  </div>
+
+  <div class="contenidoOculto" id="oculto" > <!--Inicia seccion oculto -->
+  <script type="text/javascript" src="js/js.js"></script>
   <p class="text-justyfi">Los paneles solares o tambien llamados modulos fotovoltaicos son los responsables de captar la radiación proveniente del sol y trasformarla en energia que podemos aprovechar para alimentar nuestros hogares y mucho mas.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -84,12 +57,13 @@
   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <div class="d-flex p-2 bd-highlight">
-  <a class="btn rounded-pill btn-block bg-success text-center" role="button" id="botonzoom"     value="mostrar" onclick="ocultar();"><img src="https://img.icons8.com/ios-filled/30/000000/sun.png">Cerrar Información</a>
-  </div>
+                       
+  
+  <a class="btn rounded-pill btn-block bg-transparent text-center border" role="button" id="botonzoom"     value="mostrar" onclick="ocultar();"><img src="https://img.icons8.com/ios-filled/30/000000/sun.png">Cerrar Información</a>
+  
 
 </div> <!--Finaliza seccion oculto -->
+
 @endsection
 
 @section('prueba')
