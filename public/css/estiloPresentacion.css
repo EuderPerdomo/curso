@@ -19,6 +19,7 @@ body{
   height: 100%;
   background:#042331;
   transition: all .5s ease;
+  overflow: auto;
 }
 .sidebar header{
   font-size: 22px;
@@ -130,4 +131,32 @@ color: white;
 a:not([href]):not([tabindex]) {
     color: white;
     text-decoration: none;
+}
+
+footer{
+  
+  align-items: center;
+  text-align: center;
+}
+.piepagina{
+background-color:#1a2035;
+}
+footer .row{
+  padding-top: 5px;
+}
+footer h1{
+  color: white;
+}
+
+
+.piesito{
+  height: 40px;
+  background-color:#1a2035;
+  margin-top: 5px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 10px;
 }

@@ -18,6 +18,8 @@
   </label>
 
 <!-- https://fontawesome.com/kits/4b793fdcfb/use?welcome=yes-->
+@include("layout.navbar.navbardos") 
+
 <div class="sidebar">
   <header>E.F.P.O</header>
   <ul>

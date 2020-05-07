@@ -29,9 +29,6 @@
 
 @yield("scripts")
 
-
-
-
 </div><!--Finaliza seccion de Contenido -->
 
 <!--Finaliza Contenido -->

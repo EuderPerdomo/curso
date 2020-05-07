@@ -7,7 +7,7 @@
 	    <meta http-equiv="x-ua-compatible" content="ie-edge">
 	<!--<link rel="stylesheet" type="text/css" href="boot/css/bootstrap.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
 <!--<link rel="stylesheet" type="text/css" href="new/boot/css/bootstrap.css">-->
 <link rel="stylesheet" type="text/css" href="css/stylenew.css"> 
  
@@ -22,19 +22,36 @@
 	
 		
 	<!-- Seccion de Temario-->
-<section>
+<section >
 	@yield("content")
 </section>
-<section>
+<section class="secdos">
 	@yield("dos")
 </section>
 
 
+
+
+
 	<!-- Seccion de Pie de Pagina-->
-	<div class="section">
+	<div class="section"><!-- Sección de Pie de Pagina-->
 	@include("layout.footer.footer")
-	</div>
-<</div>
+
+
+<!--
+<footer class="piesito">
+	&copy; 2020 E.F.P.O 
+</footer>
+
+-->
+</div> <!-- Finaliza Seccion de Pie de Pagina-->
+
+
+
+
+
+
+</div>
 	<!-- 
 	fINALIZA cONTENIDO
 	-->

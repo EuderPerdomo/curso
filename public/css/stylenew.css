@@ -19,6 +19,7 @@ body{
   height: 100%;
   background:#042331;
   transition: all .5s ease;
+  overflow: auto;
 }
 .sidebar header{
   font-size: 22px;
@@ -132,6 +133,11 @@ padding-top: 10px;
 .col-md-4{
   position: inherit;
 }
+.col-md-3
+{
+  position: inherit;
+}
+
 
 
 .fichas{
@@ -177,88 +183,102 @@ font-size: 24px;
 
 
 
-
-
-
-
-
-
-
-
-ul.acorh,
-ul.acorh * {
-margin: 0;
-padding: 0;
-border: 0;
-}
-ul.acorh {
-margin: 10px auto;
-padding: 0;
-list-style: none;
-width: 100%;
-font-size: 18px;
-}
-ul.acorh li {
-list-style: none;
-}
-ul.acorh li a {
-display: block;
-padding: 10px 10px 10px 20px;
-background: #333;
-color: #eee;
-border-bottom: 1px solid #000;
-border-top: 1px solid #666;
-text-decoration: none;
-box-sizing: border-box;
-}
-ul.acorh li ul {
-max-height: 0;
-margin: 0;
-padding: 0;
-list-style: none;
-overflow: hidden;
-transition: .3s all ease-in;
-}
-ul.acorh li li a {
-padding: 10px 10px 10px 40px;
-background: #999;
-color: #000;
-font-size: 16px;
-border: 0;
-border-bottom: 1px solid #ccc;
-box-sizing: border-box;
-}
-ul.acorc li li:last-child a {
-border-bottom: 0;
-}
-ul.acorh li:hover ul {
-max-height:700px;
-transition: .3s all ease-in;
-}
-ul.acorh li a:hover {
-background: #666;
-color: #fff;
+section.secdos{
+ /* min-height: 100vh;*/
+  min-height: 600px;
 }
 
 
-.botones{
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
+/* Temario*/
+.contienesub{
+  margin-top: 50px;
+}
+.subapartado{
   align-items: center;
 }
 
-footer{
-  
-  align-items: center;
-  text-align: center;
+
+div#body{
+  margin:40px auto;
+  width:600px;
+  min-height:50px;
+  background-color: red;
+  overflow: hidden;
+  border-radius: 5px;
 }
-.piepagina{
-background-color:#1a2035;
+
+
+div.subapartado{
+  margin-left: 21px;
+  margin-right: 21px;
+  /*width:100px;*/
+  min-height:50px;
+  background-color: green;
+  -webkit-transiton: height 0.2s;
 }
-footer .row{
-  padding-top: 5px;
+
+
+
+div.titul{
+ /* width:600px;*/
+  height:50px;
+  background-color: green;
+  overflow: hidden;
+  border-bottom: 1px solid #39f58f; 
+   
 }
-footer h1{
+
+p.titul{
+  margin:13px;
   color: white;
 }
+
+p.titul::before{
+content: " ";
+}
+
+div.info{
+ /*width:600px;*/
+  height:0px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  -webkit-transition: height 0.2s;
+}
+
+p.info{
+  margin:20px;
+  text-align: center;
+  color:#4f4f4f;
+}
+
+
+div.subapartado:hover div.info{
+  height:280px;
+}
+
+
+/* Pie de pagina */ 
+
+.piesito{
+  height: 40px;
+  background-color:#1a2035;
+  margin-top: 5px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

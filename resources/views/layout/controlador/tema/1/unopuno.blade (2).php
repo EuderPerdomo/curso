@@ -4,7 +4,7 @@
   
 <!--Inicia Contenido -->
 <div class="border"><!--Inicia seccion de Contenido -->
-  <div class="title text-center border"> <h1 class="font-weight-bold">Controladores o Reguladores de Carga</h1></div>
+  <div class="title text-center border"> <h1 class="font-weight-bold">Paneles Solares</h1></div>
 </div>
 <div class="row  align-items-center text-justyfi">
 <div class="col-12 title text-center">                    
@@ -21,7 +21,14 @@
             <p>Constan de la unión de varias celulas solares las cuales al sumar sus capacidades nos brindan la posibilidad de aprove</p>
     </div>
 </div> 
+
+
+  
   <div class="fichas">
+    <!--
+  <a class="btn rounded-pill btn-block bg-transparent text-center border" role="button" id="botonzoom" >< Anterior</a>
+  <a class="btn bg-transparent rounded-pill btn-block  text-center border" role="button" id="botonzoom"  value="mostrar" onClick="muestra_oculta('oculto')"><img src="https://img.icons8.com/ios-filled/30/000000/sun.png">Ampliar Información</a>
+-->
 <div class="row">
   <div class="col-12 col-sm-12 col-md-12">
     <a class="btn bg-transparent rounded-pill btn-block  text-center border" role="button" id="botonzoom"  value="mostrar" onClick="muestra_oculta('oculto')"><img src="https://img.icons8.com/ios-filled/30/000000/sun.png">Ampliar Información</a>
