@@ -33,6 +33,9 @@
 	Route::get('calculadora', function () {return view('layout.calculadora.temario_calculadora'); });
 	//Vista Principal ParaFinalizar
 	Route::get('paraFinalizar', function () {return view('layout.paraFinalizar.temario_paraFinalizar'); });
+	//Vista Principal ParaFinalizar
+	Route::get('luminarias', function () {return view('layout.luminaria.temario_luminaria'); });
+
 
 	//Temario Home
 	//******************************************************Temario Antes de Iniciar***********************************************
@@ -77,7 +80,7 @@
 	Route::get('panel_tema2.3', function () {return view('layout.paneles.tema.2.dosptres'); });
 	Route::get('panel_tema2.4', function () {return view('layout.paneles.tema.2.dospcuatro'); });
 	Route::get('panel_tema2.5', function () {return view('layout.paneles.tema.2.dospcinco'); });
-	Route::get('panel_tema2.6', function () {return view('layout.paneles.tema.2.dospseis'); });
+	Route::get('panel_tema2.6', function () {return view('layout.paneles.tema.2.dospseix'); });
 	Route::get('panel_tema2.7', function () {return view('layout.paneles.tema.2.dospsiete'); });
 	});
 
@@ -345,3 +348,20 @@
 	});
 
 	//Finaliza Temario Normatividad
+
+
+
+	//************************************************Temario Luminarias***********************************************
+	//Inicia temario Luminarias
+	//****Grupo 1
+	Route::group([], function() {
+	   Route::get('luminaria_tema1.1', function () {return view('layout.luminaria.tema.1.unopuno');});
+	Route::get('luminaria_tema1.2', function () {return view('layout.luminaria.tema.1.unopdos');});
+	Route::get('luminaria_tema1.3', function () {return view('layout.luminaria.tema.1.unoptres');});
+	Route::get('luminaria_tema1.4', function () {return view('layout.luminaria.tema.1.unopcuatro');});
+	Route::get('luminaria_tema1.5', function () {return view('layout.luminaria.tema.1.unopcinco');});
+	Route::get('luminaria_tema1.6', function () {return view('layout.luminaria.tema.1.unopseix');});
+
+	});
+
+	//Finaliza temario luminarias

@@ -82,19 +82,10 @@
   
   <ul class="infor">
     <li>
-      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.1 Que es un Controlador o regulador de carga</a>
+      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.1 Que es un Controlador o regulador de carga</a>
     </li>
-    <li><a href="{{asset('controlador_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.2 Bloqueo de Corriente Inversa</a></li>
-    <li><a href="{{asset('controlador_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.3 Bombeo de energía desde los paneles hacia las baterías en una sola dirección</a></li>
-    <li><a href="">4</a></li>
-    <li><a href="">5</a></li>
-    <li><a href="">6</a></li>
-    <li><a href="">7</a></li>
-    <li><a href="">8</a></li>
-    <li><a href="">9</a></li>
-    <li><a href="">10</a></li>
-    <li><a href="">11</a></li>
-    
+    <li><a href="{{asset('controlador_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.2 Bloqueo de Corriente Inversa</a></li>
+    <li><a href="{{asset('controlador_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.3 Bombeo de energía desde los paneles hacia las baterías en una sola dirección</a></li>  
   </ul> 
   </li>
       </div>
@@ -102,7 +93,7 @@
 
     <div class="subapartado">     
       <div class="titul">
-        <p class="titul">2. Tema dos</p>
+        <p class="titul"><i class="fas fa-chevron-down"></i> 2. Funciones Y Caracteristicas</p>
       </div>
 
       <div class="info">
@@ -110,147 +101,93 @@
   
   <ul class="infor">
     <li>
-      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.1 Que es un Controlador o regulador de carga</a>
+      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.1 Definir todas las funciones y características</a>
     </li>
-    <li><a href="{{asset('controlador_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.2 Bloqueo de Corriente Inversa</a></li>
-    <li><a href="{{asset('controlador_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.3 Bombeo de energía desde los paneles hacia las baterías en una sola dirección</a></li>
-    <li><a href="">4</a></li>
-    <li><a href="">5</a></li>
-    <li><a href="">6</a></li>
-    <li><a href="">7</a></li>
-    <li><a href="">8</a></li>
-    <li><a href="">9</a></li>
-    <li><a href="">10</a></li>
-    <li><a href="">11</a></li>    
+      
   </ul> 
   </li>
       </div>
     </div>
 
 
+<!-- SubApartado 3-->
+<div class="subapartado">     
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i> 3. Tipos de Controladores</p>
+      </div>
+
+      <div class="info">
+  <li>
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3.1 MPPT</a>
+    </li>
+    <li><a href="{{asset('controlador_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3.2 PWM</a></li>
+    <li><a href="{{asset('controlador_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3.3 PUMP</a></li>
+       
+  </ul> 
+  </li>
+      </div>
+    </div>
+
+<!-- SubApartado 4-->
+<div class="subapartado">     
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i> 4. Conexiones</p>
+      </div>
+
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.1 Esquemas de conexiones de controladores</a>
+    </li>
+    <li><a href="{{asset('controlador_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.2 </a></li>
+    <li><a href="{{asset('controlador_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.3 </a></li>
+        
+  </ul> 
+  </li>
+      </div>
+    </div>
+<!-- SubApartado 5-->
+<div class="subapartado">     
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i> 5. Calculos</p>
+      </div>
+
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">5.1 Como calcular el controlador que necesito</a>
+    </li> 
+  </ul> 
+  </li>
+      </div>
+    </div>
+<!-- SubApartado 6-->
+
+<div class="subapartado">     
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>6. Practicas</p>
+      </div>
+
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">6.1 Taller Practico de Controladores</a>
+    </li>
+     
+  </ul> 
+  </li>
+      </div>
+    </div>
+
 
 </div>
-<!--
-<ul class="miclase">
-  <li>
- <button class="boton btn bg-transparent btn-lg active btn-block text-left border" role="button" aria-pressed="true"> preeliminares</button>
-   
-    <p><a class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">hola</a></p>
-  <p class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">Preeliminares</p>
-
-</li>
-  <ul class="infor">
-    <li>
-      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.1 Que es un Controlador o regulador de carga</a>
-    </li>
-    <li><a href="{{asset('controlador_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.2 Bloqueo de Corriente Inversa</a></li>
-    <li><a href="{{asset('controlador_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.3 Bombeo de energía desde los paneles hacia las baterías en una sola dirección</a></li>
-    <li><a href="">4</a></li>
-    <li><a href="">5</a></li>
-    <li><a href="">6</a></li>
-    <li><a href="">7</a></li>
-    <li><a href="">8</a></li>
-    <li><a href="">9</a></li>
-    <li><a href="">10</a></li>
-    <li><a href="">11</a></li>
-    
-  </ul> 
-  </li>
-
-
-
-<li>
-  <a href="#" class="btn bg-transparent btn-lg active btn-block text-left border" role="button" aria-pressed="true">2.Segundo Tema</a>
-  <ul class="infor">
-    <li>
-      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.1 Que es un Controlador o regulador de carga</a>
-    </li>
-    
-  </ul> 
-  </li>
-
-
-<li>
-  <a href="#" class="btn bg-transparent btn-lg active btn-block text-left border" role="button" aria-pressed="true">1 .Preeliminares</a>
-  <ul class="infor">
-    <li>
-      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.1 Que es un Controlador o regulador de carga</a>
-    </li>
-    <li><a href="">2</a></li>
-    <li><a href="">3</a></li>
-    <li><a href="">4</a></li>
-    <li><a href="">5</a></li>
-    <li><a href="">6</a></li>
-    <li><a href="">7</a></li>
-    <li><a href="">8</a></li>
-    <li><a href="">9</a></li>
-    <li><a href="">10</a></li>
-    <li><a href="">11</a></li>
-    
-  </ul> 
-  </li>
-
-
-
-
-</ul>
-
--->
-<!--
-  <div class="botones">
-<ul class="acorh">
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left border" role="button" aria-pressed="true">1 .Preeliminares</a>
-    <ul>
-      <li><a href="{{asset('controlador_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.1 Que es un Controlador o regulador de carga</a>
-         <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.2 Bloqueo de Corriente Inversa</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.3 Bombeo de energía desde los paneles hacia las baterías en una sola dirección</a>
-    </ul>
-  </li>
-
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">2 .Funciones Y Caracteristicas</a>
-    <ul>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">2.1 Definir todas las funciones y características</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">2.2</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">2.3</a>
-    </ul>
-  </li>
-
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3 .Tipos de Controladores</a>
-    <ul>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3.1 MPPT</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3.2 PWM</a>
-    </ul>
-  </li>
-
-<li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.  Conexiones</a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.1 Esquemas de conexiones de controladores</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.2</a>
-    </ul>
-  </li>
-
-
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">5. Calculos</a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">5.1 Como calcular el controlador que necesito</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">5.2</a>
-    </ul>
-  </li>
-
-
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">6.   Practicas</a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">6.1 Taller practico de Controladores</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">6.2</a>
-    </ul>
-  </li>
-
-</ul>
-
-
-  </div> -->
-
-
-
 
 @endsection

@@ -27,8 +27,29 @@
   @yield("content")
 </section>
 
-@yield("scripts")
+<script type="text/javascript">
+function muestra_oculta(id){
+if (document.getElementById){ //se obtiene el id
+var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
+el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
+}
+}
 
+window.onload = function(){/*hace que se cargue la función lo que predetermina que div 
+  estará oculto hasta llamar a la función nuevamente*/
+muestra_oculta('oculto');/* "oculto" es el nombre que le dimos al DIV */
+}
+
+
+function ocultar(){
+  document.getElementById('oculto').style.display="none";
+}
+function mostrar(){
+  
+  document.getElementById('oculto').style.display="block";
+}
+
+</script>
 </div><!--Finaliza seccion de Contenido -->
 
 <!--Finaliza Contenido -->
@@ -38,7 +59,6 @@
 </div> <!-- Finaliza Seccion de Pie de Pagina-->
 
 </div> <!-- Finaliza container-->
-
 
  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 

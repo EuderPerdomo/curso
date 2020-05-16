@@ -1,7 +1,7 @@
 @extends('template.plantilla_alfa')
 @section('content')
 <div class="titulo">
-     <h1 >Paneles Solares</h1>
+     <h1 >Paneles</h1>
   </div>
 
   <div class="fichas">
@@ -10,7 +10,7 @@
     <div class="col-md-4">
   <div class="card bg-transparent">
       <div class="card-body text-white">
-      <h5 class="fas fa-trophy text-center"> Tecnologias </h5>
+      <h5 class="fas fa-trophy text-center"> Tecnologias</h5>
       <p class="card-text">Conoce sobre las diferentes y principales tecnologias del mercado actual</p>
     </div>
       </div>
@@ -18,16 +18,16 @@
   <div class="col-md-4">
   <div class="card bg-transparent">
       <div class="card-body text-white">
-      <h5 class="fas fa-trophy card-title">Instalación</h5>
-      <p class="card-text">Aprende todo lo que debes tener en cuenta al momento de realizar una instalación de modulos Fotovoltaicos</p>
+      <h5 class="fas fa-trophy card-title">Datos</h5>
+      <p class="card-text">Conoce Como funcióna la radiación, y la influencia de los factores ambientales  </p>
     </div>
       </div>
     </div>
     <div class="col-md-4">
   <div class="card bg-transparent">
       <div class="card-body text-white">
-      <h5 class="fas fa-trophy card-title">Caracteristicas</h5>
-      <p class="card-text">Conoce como leer fichas tecnicas y entender las caracteristicas de los paneles solares.</p>
+      <h5 class="fas fa-trophy card-title">Instalación</h5>
+      <p class="card-text">Aprende todo lo que debes tener en cuenta al momento de realizar una instalación de modulos Fotovoltaicos</p>
     </div>
       </div>
     </div>
@@ -36,16 +36,16 @@
     <div class="col-md-4">
   <div class="card bg-transparent">
       <div class="card-body text-white">
-      <h5 class="fas fa-trophy card-title">calculos</h5>
-      <p class="card-text">Aprende a dimensionar pequeños y medianos sistemas solares</p>
+      <h5 class="fas fa-trophy card-title">Caracteristicas</h5>
+      <p class="card-text">Conoce como leer fichas tecnicas y entender las caracteristicas de los paneles solares   </p>
     </div>
       </div>
     </div>
   <div class="col-md-4">
   <div class="card bg-transparent">
       <div class="card-body text-white">
-      <h5 class="fas fa-trophy card-title">Datos</h5>
-      <p class="card-text">Conoce Como funcióna la radiación, y la influencia de los factores ambientales</p>
+      <h5 class="fas fa-trophy card-title">calculos</h5>
+      <p class="card-text">Aprende a dimensionar pequeños y medianos sistemas solares   </p>
     </div>
       </div>
     </div>
@@ -68,80 +68,227 @@
      <h1 >Contenido de esta Unidad</h1>
   </div>
 
-  <div class="botones">
+<div class="contienesub">
+  
+<!--SubApartado 1 -->
+    <div class="subapartado">      
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>
+        1. Preeliminares</p>
+      </div>
 
-<ul class="acorh">
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1 .Preeliminares</a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.1 Definición de un panel solar</a>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.2 Composicion de un panel solar</a>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.3 Paneles solares Monocristalinos</a>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.4 Paneles solares Policristalinos</a>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.5 ¿Que es mejor, cual deberia elegir?</a>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.6 Como Instalar un panel solar</a>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.7 Orientación Geografica</a>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.8 Definición Retie, Retilap</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">1.2 holi</a>
-    </ul>
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('panel_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.1 Definición de un panel solar</a>
+    </li>
+    <li><a href="{{asset('panel_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.2 Composicion de un panel solar</a></li>
+    <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.3 Paneles solares Monocristalinos</a></li> 
+  <li><a href="{{asset('panel_tema1.4')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.4 Paneles solares Policristalinos</a></li>
+<li><a href="{{asset('panel_tema1.5')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.5 ¿Que es mejor, cual deberia elegir?</a></li>  
+<li><a href="{{asset('panel_tema1.6')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.6 Como Instalar un panel solar</a></li> 
+<li><a href="{{asset('panel_tema1.7')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.7 Orientación Geografica</a></li>
+<li><a href="{{asset('panel_tema1.8')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.8 Definición Retie, Retilap</a></li>
+<li><a href="{{asset('panel_tema1.9')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.9 Constitución de una célula solar</a></li>
+<li><a href="{{asset('panel_tema1.10')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.10 Efecto  fotovoltaico</a></li>
+<li><a href="{{asset('panel_tema1.11')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.11 Semiconductores P Y N</a></li>
+<li><a href="{{asset('panel_tema1.12')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.12 Célula Solar</a></li>
+
+
+
+
+  </ul> 
   </li>
+      </div>
+    </div>
 
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">2 .Criterios para Conocer la Calidad de un panel</a>
-    <ul>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">2.1</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">2.2</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">2.3</a>
-    </ul>
+ <!--SubApartado 2 -->
+   <div class="subapartado">      
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>
+        2.Criterios para Conocer la Calidad de un panel</p>
+      </div>
+
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('panel_tema2.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.1  </a>
+    </li>
+    <li><a href="{{asset('panel_tema2.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.2 </a></li>
+    <li><a href="{{asset('panel_tema2.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.3 </a></li> 
+  <li><a href="{{asset('panel_tema2.4')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.4 </a></li>
+<li><a href="{{asset('panel_tema2.5')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.5 </a></li>  
+<li><a href="{{asset('panel_tema2.6')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.6 </a></li> 
+<li><a href="{{asset('panel_tema2.7')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.7 </a></li>
+<li><a href="{{asset('panel_tema2.8')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">2.8 </a></li>
+  </ul> 
   </li>
+      </div>
+    </div>
 
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3 .Principales Cerificaciones</a>
-    <ul>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3.1</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">3.2</a>
-    </ul>
+
+<!-- SubApartado 3-->
+  <div class="subapartado">      
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>
+        3. Principales Cerificaciones</p>
+      </div>
+
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('panel_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.1  </a>
+    </li>
+    <li><a href="{{asset('panel_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.2 </a></li>
+    <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.3 </a></li> 
+  <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.4 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.5 </a></li>  
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.6 </a></li> 
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.7 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.8 </a></li>
+  </ul> 
   </li>
+      </div>
+    </div>
 
-<li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.  Estandares más comunes de panales solares</a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.1</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">4.2</a>
-    </ul>
+<!-- SubApartado 4-->
+  <div class="subapartado">      
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>
+        4. Estandares más comunes de panales solares</p>
+      </div>
+
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('panel_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.1  </a>
+    </li>
+    <li><a href="{{asset('panel_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.2 </a></li>
+    <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.3 </a></li> 
+  <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.4 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.5 </a></li>  
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.6 </a></li> 
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.7 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.8 </a></li>
+  </ul> 
   </li>
+      </div>
+    </div>
+<!-- SubApartado 5-->
+ <div class="subapartado">      
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>
+        5. Como leer la ficha tecnica de un panel solar</p>
+      </div>
 
-
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">5. Como leer la ficha tecnica de un panel solar </a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">5.1</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">5.2</a>
-    </ul>
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('panel_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.1  </a>
+    </li>
+    <li><a href="{{asset('panel_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.2 </a></li>
+    <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.3 </a></li> 
+  <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.4 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.5 </a></li>  
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.6 </a></li> 
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.7 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.8 </a></li>
+  </ul> 
   </li>
+      </div>
+    </div>
+<!-- SubApartado 6-->
 
+<div class="subapartado">      
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>
+        6. La radiación Solar</p>
+      </div>
 
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">6.   La radiación Solar</a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">6.1</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">6.2</a>
-    </ul>
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('panel_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.1  </a>
+    </li>
+    <li><a href="{{asset('panel_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.2 </a></li>
+    <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.3 </a></li> 
+  <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.4 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.5 </a></li>  
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.6 </a></li> 
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.7 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.8 </a></li>
+  </ul> 
   </li>
+      </div>
+    </div> 
 
+    <!-- SubApartado 7-->
 
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">7. Conexiones</a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">7.1</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">7.2</a>
-    </ul>
+<div class="subapartado">      
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>
+        7. Conexiones</p>
+      </div>
+
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('panel_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.1  </a>
+    </li>
+    <li><a href="{{asset('panel_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.2 </a></li>
+    <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.3 </a></li> 
+  <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.4 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.5 </a></li>  
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.6 </a></li> 
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.7 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.8 </a></li>
+  </ul> 
   </li>
+      </div>
+    </div> 
 
-  <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">8. Calculos</a>
-    <ul>
-      <a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">8.1</a>
-      <li><a href="#" class="btn bg-transparent btn-lg active btn-block text-left" role="button" aria-pressed="true">8.2</a>
-    </ul>
+    <!-- SubApartado 8-->
+
+<div class="subapartado">      
+      <div class="titul">
+        <p class="titul"><i class="fas fa-chevron-down"></i>
+        8. Calculos</p>
+      </div>
+
+      <div class="info">
+  <li>
+  
+  <ul class="infor">
+    <li>
+      <li><a href="{{asset('panel_tema1.1')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.1  </a>
+    </li>
+    <li><a href="{{asset('panel_tema1.2')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.2 </a></li>
+    <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.3 </a></li> 
+  <li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.4 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.5 </a></li>  
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.6 </a></li> 
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.7 </a></li>
+<li><a href="{{asset('panel_tema1.3')}}" class="btn bg-transparent btn-lg active btn-block text-left btn-sm" role="button" aria-pressed="true">1.8 </a></li>
+  </ul> 
   </li>
+      </div>
+    </div> <!--Finaliza ultimo SubApartado -->
 
 
+</div>
 
-</ul>
-
-
-  </div>
 @endsection

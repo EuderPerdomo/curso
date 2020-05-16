@@ -213,7 +213,7 @@ div.subapartado{
   margin-right: 21px;
   /*width:100px;*/
   min-height:50px;
-  background-color: green;
+  /*background-color: green;*/
   -webkit-transiton: height 0.2s;
 }
 
@@ -240,20 +240,33 @@ content: " ";
 div.info{
  /*width:600px;*/
   height:0px;
-  background-color: #f5f5f5;
+  /*background-color: #eb2828; /*Color de fondo de los botones*/
   overflow: hidden;
   -webkit-transition: height 0.2s;
 }
+
 
 p.info{
   margin:20px;
   text-align: center;
   color:#4f4f4f;
+  background-color: blue;
+}
+
+a.btn{
+  font-size:18px;
+}
+.btn{
+  padding-right: 10px;
+  display: block;
+  /*margin: 10px; */
+  border-color: black;
 }
 
 
 div.subapartado:hover div.info{
-  height:280px;
+  /*height:auto;*/
+  height: 400px;
 }
 
 
